@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1C97BF920E5C8A600BEE06D /* UniversePlanetRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversePlanetRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C97BF920E5C8A600BEE06D /* ARkit-Universe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARkit-Universe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C97BFC20E5C8A600BEE06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C97BFE20E5C8A600BEE06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1C97C0120E5C8A600BEE06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A1C97BFA20E5C8A600BEE06D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1C97BF920E5C8A600BEE06D /* UniversePlanetRotate.app */,
+				A1C97BF920E5C8A600BEE06D /* ARkit-Universe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1C97BF820E5C8A600BEE06D /* UniversePlanetRotate */ = {
+		A1C97BF820E5C8A600BEE06D /* ARkit-Universe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1C97C0B20E5C8A600BEE06D /* Build configuration list for PBXNativeTarget "UniversePlanetRotate" */;
+			buildConfigurationList = A1C97C0B20E5C8A600BEE06D /* Build configuration list for PBXNativeTarget "ARkit-Universe" */;
 			buildPhases = (
 				A1C97BF520E5C8A600BEE06D /* Sources */,
 				A1C97BF620E5C8A600BEE06D /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = UniversePlanetRotate;
+			name = "ARkit-Universe";
 			productName = UniversePlanetRotate;
-			productReference = A1C97BF920E5C8A600BEE06D /* UniversePlanetRotate.app */;
+			productReference = A1C97BF920E5C8A600BEE06D /* ARkit-Universe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Dhruvil;
 				TargetAttributes = {
 					A1C97BF820E5C8A600BEE06D = {
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1C97BF420E5C8A600BEE06D /* Build configuration list for PBXProject "UniversePlanetRotate" */;
+			buildConfigurationList = A1C97BF420E5C8A600BEE06D /* Build configuration list for PBXProject "ARkit-Universe" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1C97BF820E5C8A600BEE06D /* UniversePlanetRotate */,
+				A1C97BF820E5C8A600BEE06D /* ARkit-Universe */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +177,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +185,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,6 +236,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +244,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -303,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1C97BF420E5C8A600BEE06D /* Build configuration list for PBXProject "UniversePlanetRotate" */ = {
+		A1C97BF420E5C8A600BEE06D /* Build configuration list for PBXProject "ARkit-Universe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1C97C0920E5C8A600BEE06D /* Debug */,
@@ -312,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1C97C0B20E5C8A600BEE06D /* Build configuration list for PBXNativeTarget "UniversePlanetRotate" */ = {
+		A1C97C0B20E5C8A600BEE06D /* Build configuration list for PBXNativeTarget "ARkit-Universe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1C97C0C20E5C8A600BEE06D /* Debug */,
