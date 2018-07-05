@@ -1,6 +1,6 @@
-## ARKit - Universe in iOS 
+# ARKit - Universe in iOS 
 
-# Whole Universe useing the ARKit.
+## Whole Universe useing the ARKit.
 
 This is the simple app for iOS device.
 I had use the ARKit(Augmented Reality).
